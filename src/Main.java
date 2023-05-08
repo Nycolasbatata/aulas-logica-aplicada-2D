@@ -1,6 +1,8 @@
 public class Main {
     public static void main(String[] args) {
         // Aula inicial de Orientações objetos
+
+        Pessoa adao = new Pessoa();
     }
 }
 
