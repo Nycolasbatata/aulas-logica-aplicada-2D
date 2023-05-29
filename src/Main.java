@@ -13,9 +13,26 @@ public class Main {
         qualquer.sobrenome = "Lee";
         // Definir comportamento
         qualquer.falar();
-        System.out.println(qualquer.falar("alto"));
+        System.out.println(qualquer.falar(" alto "));
+
+        Animal cao = new Animal();
+        Animal gato = new Animal();
+        Animal gato2 = new Animal();
+        int y = 0;
+        Animal roedor = new Animal();
+            roedor = new Animal();
+            Animal x;
+            x = new Animal();
+
+         //  Consultar dados do objeto cao
+        cao.nome = "Pluto"; // Atribuição
+        System.out.println(cao.nome); // Consulta
+        cao.comer(); // chamada de método
+        Pessoa nova = new Pessoa();
+        nova.nome = "Tina";
+        nova.comer();
 
 
+
+        }
     }
-}
-
